@@ -1,0 +1,13 @@
+fastapi[all]~=0.89.1
+uvicorn
+sqlalchemy~=1.4.46
+"passlib[bcrypt]"
+"python-jose[cryptography]"
+python-multipart
+jinja2
+aiofiles
+
+
+starlette~=0.22.0
+passlib~=1.7.4
+pydantic~=1.10.4

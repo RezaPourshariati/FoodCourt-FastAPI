@@ -1,0 +1,12 @@
+1-  python -m venv env   
+2-  env\Scripts\activate.bat 
+3-  pip install fastapi[all]
+4-  pip install "passlib[bcrypt]"
+5-  pip install python-multipart
+6-  pip install "python-jose[cryptography]"
+7-  pip install sqlalchemy
+8-  pip install -r requirements.txt (if needed)
+
+
+9-  uvicorn main:app --reload
+10-  uvicorn auth:app --reload
